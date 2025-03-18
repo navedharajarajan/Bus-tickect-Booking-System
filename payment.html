@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Payment</title>
+</head>
+<body bgcolor="#e6f7ff">
+    <h2>Online Payment</h2>
+    <form action="payment_success.html" method="POST">
+        <label for="name"><b>Cardholder Name:</b></label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        
+        <label for="card"><b>Card Number:</b></label>
+        <input type="text" id="card" name="card" required>
+        <br><br>
+
+        <label for="expiry"><b>Expiry Date:</b></label>
+        <input type="month" id="expiry" name="expiry" required>
+        <br><br>
+
+        <label for="cvv"><b>CVV:</b></label>
+        <input type="password" id="cvv" name="cvv" required>
+        <br><br>
+
+        <button type="submit"><b>Pay Now</b></button>
+    </form>
+</body>
+</html>
